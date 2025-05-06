@@ -31,7 +31,7 @@ public class ArrayResizer
             if (isNonZeroRow(array2D, row))
             {
                 arr[r]=array2D[row];
-                row++;
+                r++;
             }
         }
         return arr;
